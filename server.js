@@ -49,7 +49,8 @@ Write every wave specifically for what this person typed. Make it feel like you 
 
   try {
     const message = await client.messages.create({
-      model: 'claude-sonnet-4-6',
+      model: 'claude-opus-4-5',
+
       max_tokens: 16000,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: userPrompt }]
