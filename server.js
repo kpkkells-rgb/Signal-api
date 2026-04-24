@@ -49,7 +49,7 @@ Write every wave specifically for what this person typed. Make it feel like you 
 
   try {
     const message = await client.messages.create({
-      model: 'claude-opus-4-5',
+      claude-haiku-4-5-20251001
 
       max_tokens: 16000,
       system: SYSTEM_PROMPT,
